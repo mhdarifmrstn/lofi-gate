@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  lofi-gate:
+    image: rainrisa/lofi-gate
+    container_name: lofi-gate
+    env_file:
+      - .env
+    volumes:
+      - /home/user/lofi-gate/musics:/rainrif/musics
+    restart: always
+

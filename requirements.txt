@@ -1,0 +1,4 @@
+Pyrogram==2.0.106
+python-dotenv==0.21.0
+py-tgcalls==2.0.6
+mutagen==1.47.0
